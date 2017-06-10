@@ -1,0 +1,29 @@
+{
+  "static": {
+    "urls": {
+      "https://hs950559.github.io/ng4-pwa-sample/polyfills.a33fa0f1d9ac2c67feb4.bundle.js": "9b6be0a5ad8492282c9d650ff3c366a5540f4171",
+      "https://hs950559.github.io/ng4-pwa-sample/main.7509a260c0e4bbd54bf2.bundle.js": "cdfb7c33430235a22b0cfc515714b074681df968",
+      "https://hs950559.github.io/ng4-pwa-sample/sw-register.c3a9f56ebf829a0880d3.bundle.js": "6c5694fa18f55de662ff331e4d69d4521033fd80",
+      "https://hs950559.github.io/ng4-pwa-sample/vendor.47b9d07656417ba30742.bundle.js": "38bf7f8bc256682cb6d22d2da50c55c7ab2643aa",
+      "https://hs950559.github.io/ng4-pwa-sample/inline.7a39bb4b98e809f904da.bundle.js": "3a3e461645856e415b158b1952f551755e507710",
+      "https://hs950559.github.io/ng4-pwa-sample/styles.77a427fb5b511a2de7d0.bundle.css": "51fdbafa92bddf7c9040fb2932de42685e051add",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-144-144.png": "2190c048d3add5d946fddf4ac3a9aa42f9a61f7f",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-48-48.png": "b718a9eada7f2ec2ff298685bd457cb2caf17593",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-192-192.png": "add430161d98f488b052e413fb87b2dc1453c6b8",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-512-512.png": "96464374a09124002bd303edcb424772d2b2da9a",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-72-72.png": "870954ad0692d797b6406fd8ef0b736701d3827b",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-96-96.png": "01e4d407f5df0ae7c101f17d7f4002d039ae7683",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/chrome/chrome-extensionmanagementpage-48-48.png": "b718a9eada7f2ec2ff298685bd457cb2caf17593",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/chrome/chrome-favicon-16-16.png": "5ec2b37ac7500bd36f0e175815d64fa9a9103b3d",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/icons/chrome/chrome-installprocess-128-128.png": "403682337e510659bc30dee477d6844956101a1f",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/ignore.html": "2ff838ba5fd9cdfac12ee8af037db66019583b75",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/images/logo.png": "7fd7d54f98ebd1c8a0d2d956ad613ebb7a471d71",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/redirect/redirectfrom.html": "189667e6cdbb9f25c4e1b9b482dec3860434b1c4",
+      "https://hs950559.github.io/ng4-pwa-sample/assets/redirect/redirectto.html": "3584869bdfb01e335ddffbefa80236a54749fa5d",
+      "https://hs950559.github.io/ng4-pwa-sample/favicon.ico": "cd5c7399c1a8570c4a663df6a4a20a6ebffb3003",
+      "https://hs950559.github.io/ng4-pwa-sample/manifest.json": "fc72f3e6fd200376ebf9534e4f6cd56de8f583f6",
+      "https://hs950559.github.io/ng4-pwa-sample/index.html": "fd5ddc830ef3695f09fb61e81de2140875d2892d"
+    },
+    "_generatedFromWebpack": true
+  }
+}
