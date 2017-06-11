@@ -1,12 +1,83 @@
 {
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      },
+      "/some-routes-group-prefix": {
+        "prefix": true
+      },
+      "/some-routes-group-prefix-no-files": {
+        "prefix": true,
+        "onlyWithoutExtension": true
+      },
+      "/some/specific-route": {
+        "prefix": false
+      },
+      "^/regex/.*/route$": {
+        "match": "regex"
+      }
+    }
+  },
+  "external": {
+    "urls": [
+      {
+        "url": "https://fonts.googleapis.com/css?family=Material+Icons"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,300"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2"
+      }
+    ]
+  },
+  "dynamic": {
+    "group": [
+      {
+        "name": "favorites",
+        "urls": {
+          "http://localhost:3000/favorites/": {
+            "match": "prefix"
+          }
+        },
+        "cache": {
+          "optimizeFor": "performance",
+          "strategy": "lru",
+          "maxAgeMs": 3600000,
+          "maxEntries": 2
+        }
+      },
+      {
+        "name": "timeline",
+        "urls": {
+          "http://localhost:3000/timeline/": {
+            "match": "prefix"
+          }
+        },
+        "cache": {
+          "optimizeFor": "freshness",
+          "strategy": "fifo",
+          "maxAgeMs": 3600000,
+          "maxEntries": 2,
+          "networkTimeoutMs": 1000
+        }
+      }
+    ]
+  },
+  "push": {
+    "showNotifications": true,
+    "backgroundOnly": false
+  },
   "static": {
     "urls": {
-      "https://hs950559.github.io/ng4-pwa-sample/polyfills.a33fa0f1d9ac2c67feb4.bundle.js": "9b6be0a5ad8492282c9d650ff3c366a5540f4171",
-      "https://hs950559.github.io/ng4-pwa-sample/main.7509a260c0e4bbd54bf2.bundle.js": "cdfb7c33430235a22b0cfc515714b074681df968",
-      "https://hs950559.github.io/ng4-pwa-sample/sw-register.c3a9f56ebf829a0880d3.bundle.js": "6c5694fa18f55de662ff331e4d69d4521033fd80",
-      "https://hs950559.github.io/ng4-pwa-sample/vendor.47b9d07656417ba30742.bundle.js": "38bf7f8bc256682cb6d22d2da50c55c7ab2643aa",
-      "https://hs950559.github.io/ng4-pwa-sample/inline.7a39bb4b98e809f904da.bundle.js": "3a3e461645856e415b158b1952f551755e507710",
-      "https://hs950559.github.io/ng4-pwa-sample/styles.77a427fb5b511a2de7d0.bundle.css": "51fdbafa92bddf7c9040fb2932de42685e051add",
+      "https://hs950559.github.io/ng4-pwa-sample/polyfills.3f2a66b727eef84616a8.bundle.js": "4784fe6f8744f093b13a5b668cc5cfbe1991b7c3",
+      "https://hs950559.github.io/ng4-pwa-sample/main.2f91e39f198e18963e63.bundle.js": "5e83bfceda0d335142f4513cc42e40e7aafbb696",
+      "https://hs950559.github.io/ng4-pwa-sample/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
+      "https://hs950559.github.io/ng4-pwa-sample/vendor.aa267cfc9693a3ed518f.bundle.js": "39f68e41d0c2f3fb5a0b3d7ab3ef30d8c13a3b14",
+      "https://hs950559.github.io/ng4-pwa-sample/inline.dd30d4ff802f399d3dd3.bundle.js": "6c8b8158e47e534f719feebb10f7b33c58b10cbf",
+      "https://hs950559.github.io/ng4-pwa-sample/styles.60d6d02c1ca86f662938.bundle.css": "9bd11d3e1b194e0c82d9f97226ec4427ca6a0376",
       "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-144-144.png": "2190c048d3add5d946fddf4ac3a9aa42f9a61f7f",
       "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-48-48.png": "b718a9eada7f2ec2ff298685bd457cb2caf17593",
       "https://hs950559.github.io/ng4-pwa-sample/assets/icons/android/android-launchericon-192-192.png": "add430161d98f488b052e413fb87b2dc1453c6b8",
@@ -22,7 +93,7 @@
       "https://hs950559.github.io/ng4-pwa-sample/assets/redirect/redirectto.html": "3584869bdfb01e335ddffbefa80236a54749fa5d",
       "https://hs950559.github.io/ng4-pwa-sample/favicon.ico": "cd5c7399c1a8570c4a663df6a4a20a6ebffb3003",
       "https://hs950559.github.io/ng4-pwa-sample/manifest.json": "fc72f3e6fd200376ebf9534e4f6cd56de8f583f6",
-      "https://hs950559.github.io/ng4-pwa-sample/index.html": "fd5ddc830ef3695f09fb61e81de2140875d2892d"
+      "https://hs950559.github.io/ng4-pwa-sample/index.html": "d4bef67ffa7f225beea18dda0016bd8647391f0f"
     },
     "_generatedFromWebpack": true
   }
